@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fase1.Views.RegisterPage"
+             Title="RegisterPage"
+             BackgroundColor="#F2F2F2">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+
+            <!-- Título -->
+            <Label Text="CushquiAPP"
+                   FontSize="32"
+                   TextColor="#FFA500"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <!-- Subtítulo -->
+            <Label Text="Gestiona tus finanzas de forma fácil y segura"
+                   FontSize="16"
+                   HorizontalOptions="Center"
+                   TextColor="Black"
+                   HorizontalTextAlignment="Center" />
+
+            <!-- Formulario -->
+            <Frame BackgroundColor="#E0E0E0"
+                   CornerRadius="20"
+                   Padding="20"
+                   HasShadow="True">
+
+                <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto" RowSpacing="15">
+
+                    <!-- Campo: nombre -->
+                    <Entry x:Name="nombreEntry"
+                           Placeholder="Nombre completo"
+                           BackgroundColor="White"
+                           TextColor="Black"
+                           Grid.Row="0" />
+
+                    <!-- Campo: correo -->
+                    <Entry x:Name="correoEntry"
+                           Placeholder="Correo electrónico"
+                           Keyboard="Email"
+                           BackgroundColor="White"
+                           TextColor="Black"
+                           Grid.Row="1" />
+
+                    <!-- Campo: contraseña -->
+                    <Entry x:Name="passwordEntry"
+                           Placeholder="Contraseña"
+                           IsPassword="True"
+                           BackgroundColor="White"
+                           TextColor="Black"
+                           Grid.Row="2" />
+
+                    <!-- Botón: Crear cuenta -->
+                    <Button Text="Crear cuenta"
+                            Clicked="ButtonCrearCuenta"
+                            BackgroundColor="#3498db"
+                            TextColor="White"
+                            CornerRadius="10"
+                            Grid.Row="3" />
+
+                
+
+                </Grid>
+            </Frame>
+            <Frame BackgroundColor="#E0E0E0"
+            CornerRadius="20"
+            Padding="20"
+            HasShadow="True">
+
+                <Grid RowDefinitions="Auto" RowSpacing="15">
+
+                    <Label Text="Inicia Sesión"
+       TextColor="Blue"
+       FontAttributes="Bold"
+                             Grid.Row="0">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnTapLogin" />
+                        </Label.GestureRecognizers>
+                    </Label>
+
+              
+                    
+
+                </Grid>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

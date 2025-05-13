@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.CushquiApp.CushquiApp">
+
+	<!-- PERMISOS NECESARIOS -->
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+
+	<application
+    	android:allowBackup="true"
+    	android:icon="@mipmap/appicon"
+    	android:supportsRtl="true"
+    	android:label="CushquiApp"
+    	android:name="com.google.firebase.FirebaseApp">
+		<!-- ESTA LÍNEA ES CRUCIAL -->
+
+		<meta-data
+        	android:name="com.google.firebase.messaging.default_notification_channel_id"
+        	android:value="default" />
+	</application>
+</manifest>

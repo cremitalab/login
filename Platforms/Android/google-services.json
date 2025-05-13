@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "996245783260",
+    "firebase_url": "https://cushquiapp-default-rtdb.firebaseio.com",
+    "project_id": "cushquiapp",
+    "storage_bucket": "cushquiapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996245783260:android:c23a3af49567d2cf77ea19",
+        "android_client_info": {
+          "package_name": "com.CushquiApp.CushquiApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996245783260-gvb0trsjgo9mnvlajvvshjgip8tg3b9q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.CushquiApp.CushquiApp",
+            "certificate_hash": "f72d39cf607ee8e55301ccf1c0510fb3bada1b49"
+          }
+        },
+        {
+          "client_id": "996245783260-26dknp6cgpf66qcebieb8meiobi0umta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHcv9gAja0mb9KoER6QdxYGS6ugosITPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996245783260-26dknp6cgpf66qcebieb8meiobi0umta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

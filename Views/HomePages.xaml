@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fase1.Views.HomePages"
+             Title="Bienvenido"
+              NavigationPage.HasBackButton="False">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Cerrar sesión"
+         
+            Clicked="OnCerrarSesionClicked" />
+    </ContentPage.ToolbarItems>
+    <VerticalStackLayout>
+       
+
+        <Label x:Name="nombreLabel" FontSize="24" TextColor="DarkBlue" />
+        <Label Text="¡Ya estás logueado con Firebase!" />
+    </VerticalStackLayout>
+</ContentPage>
